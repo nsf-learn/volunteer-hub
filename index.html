@@ -119,6 +119,18 @@
   margin-top: 0;
   padding-left: 25px; /* keep your current indent */
 }
+    .email-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.email-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
 
     footer {
       text-align: center;
@@ -256,7 +268,10 @@
     <section class="email-box">
      
       <h2>How to apply</h2>
-      <p>Email us.</p>
+      <div class="email-line">
+  <img src="email-icon.png" alt="Email" class="email-icon">
+  <span>Email us.</span>
+</div>
       
 <p>Tell us:</p>
 <ul>
